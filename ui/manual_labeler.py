@@ -8,14 +8,13 @@ class_names = ['Breadboard', 'Capacitor', 'Diode', 'IC', 'LED', 'Line_area', 'Li
 
 # 각 클래스에 대해 고유 색상 지정 (BGR)
 class_colors = {
-    'Breadboard': (200, 200, 200),
-    'Capacitor': (255, 0, 0),
-    'Diode': (0, 255, 0),
-    'IC': (0, 0, 255),
-    'LED': (0, 255, 255),
-    'Line_area': (255, 0, 255),
-    'Line_point': (255, 255, 0),
-    'Resistor': (0, 128, 255),
+    'Breadboard': (0, 128, 255),     # 오렌지
+    'Capacitor': (255, 0, 255),      # 핑크
+    'Diode': (0, 255, 0),            # 라임 그린
+    'IC': (204, 102, 255),           # 연보라
+    'LED': (102, 0, 102),            # 남색
+    'Line_area': (255, 0, 0),        # 파란색
+    'Resistor': (255, 255, 102),     # 하늘색
 }
 
 boxes = []

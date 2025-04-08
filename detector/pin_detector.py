@@ -19,7 +19,7 @@ class PinDetector:
             circles = np.uint16(np.around(circles))
             for (x, y, r) in circles[0, :]:
                 pins.append((x, y))
-                cv2.circle(image, (x, y), r, (0, 0, 255), 2)
-                cv2.circle(image, (x, y), 2, (255, 0, 0), 3)
+                #cv2.circle(image, (x, y), r, (0, 0, 255), 2)   #핀홀 이미지 시각화
+                #cv2.circle(image, (x, y), 2, (255, 0, 0), 3)
 
         return image, pins
